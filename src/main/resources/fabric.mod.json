@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "modid",
+	"version": "${version}",
+	"name": "Create Fabric Addon Template",
+	"description": "I'm a fun little description :D",
+	"authors": [
+		"your name here"
+	],
+	"contact": {
+		"sources": "https://github.com/snackbag/create-fabric-addon-template",
+		"issues": "https://github.com/snackbag/create-fabric-addon-template/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.modid.ExampleMod"
+		],
+		"fabric-datagen": [
+			"com.example.modid.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${fabric_loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create": "${create_version}"
+	},
+	"suggests": {}
+}
