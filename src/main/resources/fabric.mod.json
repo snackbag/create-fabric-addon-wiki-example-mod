@@ -1,15 +1,14 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "examplemod",
 	"version": "${version}",
-	"name": "Create Fabric Addon Template",
-	"description": "I'm a fun little description :D",
+	"name": "Create Wiki Example Mod",
+	"description": "made to showcase various Create addon capabilities",
 	"authors": [
-		"your name here"
+		"snackbag wiki contributors"
 	],
 	"contact": {
-		"sources": "https://github.com/snackbag/create-fabric-addon-template",
-		"issues": "https://github.com/snackbag/create-fabric-addon-template/issues"
+		"homepage": "https://wiki.snackbag.net/w/cfa"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
@@ -23,7 +22,7 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json"
+		"examplemod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabric_loader_version}",
